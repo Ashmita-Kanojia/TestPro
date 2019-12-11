@@ -1,6 +1,8 @@
 package com.test;
 
 public class TestClass {
+  
+  System.out.println("Heelo";)
 
 	int a = 20;
 	int b= 30;
