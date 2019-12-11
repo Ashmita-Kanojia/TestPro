@@ -10,5 +10,18 @@ public class Hello {
 		
 		System.out.println("HelloWorld");
 		System.out.println("Hello AShmita Kanojia");
+		
+		System.out.println("Hello AShmita Kanojia");
+		try {
+		 i = 2/0;
+		
+		}
+		catch(Exception e) {
+			
+			//e.printStackTrace();
+			//System.out.println(e.toString());
+			System.out.println(e.getMessage());
+		}
+		//System.out.println(i);
 	}
 }
